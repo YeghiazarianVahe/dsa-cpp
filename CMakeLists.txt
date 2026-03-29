@@ -20,7 +20,7 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 add_subdirectory(setup)
 
 # Phase 1
-# add_subdirectory(phase1/complexity_analysis)
+add_subdirectory(phase1/complexity_analysis)
 # add_subdirectory(phase1/arrays)
 # add_subdirectory(phase1/sorting)
 # add_subdirectory(phase1/binary_search)
