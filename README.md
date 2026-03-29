@@ -24,7 +24,7 @@ MSVC: /std:c++20 /W4 /O2
 ### Phase 1 — Foundations
 | # | Topic | Folder | Status |
 |---|-------|--------|--------|
-| 0 | Toolchain setup | `setup/` | ⬜ not started |
+| 0 | Toolchain setup | `setup/` | ✅ complete |
 | 1 | Big-O / Complexity Analysis | `phase1/complexity_analysis/` | ⬜ not started |
 | 2 | Arrays (Dynamic Array) | `phase1/arrays/` | ⬜ not started |
 | 3 | Strings | `phase1/strings/` | ⬜ not started |
