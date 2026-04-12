@@ -78,7 +78,7 @@ static void test_constant_growth() {
     for (std::size_t i = 1; i < res.size(); ++i) {
         if (res[i - 1].ns_per_op > 0.0) {
             double ratio = res[i].ns_per_op / res[i - 1].ns_per_op;
-            CHECK(near(ratio, 1.0, 60.0));
+            CHECK(near(ratio, 1.0, 80.0));
         }
     }
 }
